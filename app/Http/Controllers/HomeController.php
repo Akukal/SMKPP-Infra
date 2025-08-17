@@ -10,8 +10,13 @@ class HomeController extends Controller
     {
         $transparent = true;
 
-        return view('home', [
+        return view('pages.home', [
             'isHome' => true,
         ]);
+    }
+
+    public function virtualExperience()
+    {
+        return view('pages.virtual-experience');
     }
 }

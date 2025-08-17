@@ -9,9 +9,11 @@
     
     <main>
         @yield('content')
+        @include('pages.chat')
     </main>
 
     @include('partials.footer')
+    
     
 </body>
 </html>

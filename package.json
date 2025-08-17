@@ -35,6 +35,7 @@
     },
     "homepage": "https://github.com/Akukal/SMKPP-Infra#readme",
     "dependencies": {
+        "@photo-sphere-viewer/core": "^5.13.4",
         "photo-sphere-viewer": "^4.8.1",
         "three": "^0.179.1"
     }

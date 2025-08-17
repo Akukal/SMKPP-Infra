@@ -9,4 +9,4 @@ use App\Http\Controllers\HomeController;
 // });
 
 Route::get('/', [HomeController::class, 'index']);
-
+Route::get('/virtual-experience', [HomeController::class, 'virtualExperience']);
