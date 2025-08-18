@@ -12,10 +12,12 @@
                 <div class="max-w-4xl space-y-2 lg:space-y-4 animate-fade-in">
                     <p class="text-sm sm:text-2xl xl:text-3xl font-semibold border-l-4 border-orange-400 pl-4 text-gray-200">
                         SELAMAT DATANG DI SITUS RESMI</p>
-                    <h1 class="text-3xl sm:text-5xl xl:text-6xl font-bold text-orange-400 leading-tight">SMK PRESTASI PRIMA
+                    <h1 class="text-3xl sm:text-5xl xl:text-6xl font-bold text-orange-400 leading-tight">
+                        SMK PRESTASI PRIMA
                     </h1>
-                    <p class="text-xs sm:text-lg xl:text-xl font-semibold text-gray-300 italic">"IF BETTER IS POSSIBLE, GOOD
-                        IS NOT ENOUGH"</p>
+                    <p class="text-xs sm:text-lg xl:text-xl font-semibold text-gray-300 italic">
+                        "IF BETTER IS POSSIBLE, GOOD IS NOT ENOUGH"
+                    </p>
                     <div class="pt-4">
                         <a href="#tentang"
                             class="select-none text-sm sm:text-lg inline-flex items-center gap-2 bg-orange-500 text-white px-5 sm:px-8 py-3 sm:py-4 rounded-full font-semibold hover:bg-orange-600 transition-all duration-300 transform hover:scale-105 hover:shadow-md">
@@ -36,6 +38,28 @@
             class="absolute inset-0 w-full h-full object-cover opacity-75 select-none"
             draggable="false"alt="SMK Prestasi Prima">
     </section>
+
+    <section class="px-20 w-full h-screen py-20 flex items-center justify-center flex-col">
+        <h1 class="mx-auto text-center text-3xl text-blue-900">
+            Sekilas <span class="text-orange-400 font-bold">SMK PRESTASI PRIMA</span>
+        </h1>
+
+        <div class="flex mt-8 px-40 space-x-4">
+            <div class="rounded-xl shadow-xl flex-1 flex items-center">
+                <p class="text-blue-900 py-20 px-10 my-auto text-md">
+                    Di sekolah Prestasi Prima yang unggul dan terpercaya siswa & siswi disiapkan untuk menjadi tenaga yang
+                    terampil dan mandiri. Tidak hanya itu ketakwaan dan kecerdasan pun harus dimiliki, dan percaya diri
+                    selalu terjaga dengan berkarakter Pancasila. Jika ada yang lebih baik, baik saja tidak cukup.
+                </p>
+            </div>
+
+            <div class="flex-1">
+                <img src="{{ asset('images/sekolah_ls.png') }}" class="rounded-xl"
+                    draggable="false"alt="SMK Prestasi Prima" />
+            </div>
+        </div>
+    </section>
+
     <style>
         @keyframes fadeIn {
             from {
