@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
+<!-- SOCIAL BAR -->
+<x-social-bar />
     <section class="bg-cover bg-center w-full h-screen relative bg-gray-800 overflow-hidden" id="hero-section">
         <!-- Gradient Overlay -->
         <div
