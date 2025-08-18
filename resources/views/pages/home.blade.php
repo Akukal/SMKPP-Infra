@@ -3,7 +3,7 @@
 @section('content')
 <section class="relative h-screen bg-cover bg-center w-full h-screen relative bg-gray-800 overflow-hidden"> 
     <!-- Gradient Overlay -->
-    <div class="absolute inset-0 bg-gradient-to-r from-gray-800/80 sm:from-gray-800/90 via-gray-800/50 sm:via-gray-800/60 to-transparent z-10"></div>
+<div class="absolute inset-0 z-10" style="background: linear-gradient(to right, rgba(31,41,55,0.8) 0%, rgba(31,41,55,0) 100%);"></div>
     <!-- Content -->
     <div class="absolute inset-0 flex items-center px-20 z-20">
         <div class="container mx-auto px-4">    
