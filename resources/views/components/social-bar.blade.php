@@ -16,7 +16,7 @@
         <a href="https://api.whatsapp.com/send/?phone=6285195928886" target="_blank">
             <img id="waIcon" src="{{ asset('images/whatsapp-orange.png') }}" class="w-8 h-auto object-contain" />
         </a>
-        <a href="https://www.instagram.com/smkprestasiprima" target="_blank">
+        <a href="https://www.instagram.com/smkprestasiprima?utm_source=ig_web_button_share_sheet&igsh=MTczYnhjeWMzMXNpOQ==" target="_blank">
             <img id="igIcon" src="{{ asset('images/instagram-orange.png') }}" class="w-8 h-auto object-contain" />
         </a>
         <a href="https://m.youtube.com/@SEKOLAHPRESTASIPRIMA" target="_blank">

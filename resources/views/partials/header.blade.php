@@ -390,6 +390,40 @@
             leader_name_2: { id: "Hendry Kurniawan, S.Kom, M.I.Kom", en: "Hendry Kurniawan, S.Kom, M.I.Kom" },
             leader_position_2: { id: "Kepala SMK Prestasi Prima", en: "Principal of SMK Prestasi Prima" },
 
+            //footer
+            school_name: {
+        id: "SMK Prestasi Prima",
+        en: "SMK Prestasi Prima"
+    },
+    school_address: {
+        id: "Jl. Hankam Raya No. 89, Cilangkap, Cipayung, Jakarta Timur, DKI Jakarta.",
+        en: "Jl. Hankam Raya No. 89, Cilangkap, Cipayung, East Jakarta, DKI Jakarta."
+    },
+    menu_info: {
+        id: "Informasi Sekolah",
+        en: "School Information"
+    },
+    menu_life: {
+        id: "Kehidupan Siswa",
+        en: "Student Life"
+    },
+    menu_partner: {
+        id: "Mitra",
+        en: "Partners"
+    },
+    menu_admission: {
+        id: "Penerimaan Siswa",
+        en: "Admission"
+    },
+    menu_news: {
+        id: "Berita",
+        en: "News"
+    },
+    footer_text: {
+        id: "© 2025 Orens Solution - Version 2.0 | orang-orang",
+        en: "© 2025 Orens Solution - Version 2.0 | people"
+    }
+
 
         };
         const flagSVGs = {
