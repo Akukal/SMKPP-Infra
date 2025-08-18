@@ -61,71 +61,79 @@
         </div>
     </section>
 
-    <!-- SECTION PESAN PIMPINAN -->
-    <section class="px-4 md:px-20 w-full py-16 flex flex-col items-center bg-white" id="pesan-pimpinan">
-    <h2 class="text-3xl font-bold text-orange-600 mb-12 text-center" data-translate-key="leader_message">
-        Pesan Pimpinan
-    </h2>
+<!-- SECTION PESAN PIMPINAN -->
+<section class="px-4 md:px-20 w-full py-16 flex flex-col items-center bg-white" id="pesan-pimpinan">
+  <h2 class="text-3xl font-bold text-orange-600 mb-12 text-center" data-translate-key="leader_message">
+    Pesan Pimpinan
+  </h2>
 
-    <div class="flex flex-wrap justify-center gap-6 sm:gap-10 max-w-7xl">
+  <!-- Baris utama dengan pasangan card rapat -->
+  <div class="flex flex-wrap justify-center gap-4 max-w-7xl">
 
-        <!-- Card 1 - Orange -->
-        <div class="card bg-orange-600 w-full sm:w-48 md:w-60 h-60 sm:h-64 md:h-72 rounded-md shadow-md p-4 flex items-center justify-center
-                    text-white text-sm sm:text-sm md:text-base leading-snug transform transition duration-300
-                    hover:scale-105 hover:-translate-y-3 hover:shadow-2xl hover:shadow-black/60">
-            <p class="text-center" data-translate-key="leader_card_1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
-            </p>
+    <!-- Pasangan Card 1 + Card 2 -->
+    <div class="flex flex-wrap gap-2">
+      <!-- Card 1 - Orange -->
+      <div class="card bg-orange-600 w-full sm:w-56 md:w-60 h-60 sm:h-64 md:h-72 rounded-md shadow-md p-4 flex items-center justify-center
+                  text-white text-sm sm:text-sm md:text-base leading-snug transform transition duration-300
+                  hover:scale-105 hover:-translate-y-3 hover:shadow-2xl hover:shadow-black/60">
+        <div class="flex flex-col items-center text-center">
+          <img src="https://via.placeholder.com/90" alt="Foto Direktur"
+               class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-white mb-3">
+          <h3 class="text-sm sm:text-base md:text-lg font-bold" data-translate-key="leader_name_1">
+            Dr. Wannen Pakpahan, M.M
+          </h3>
+          <p class="text-xs sm:text-sm md:text-sm opacity-80 leading-tight" data-translate-key="leader_position_1">
+            Direktur Penjamin Mutu<br>Yayasan Wahana Prestasi Prima
+          </p>
         </div>
+      </div>
 
-        <!-- Card 2 - Blue -->
-        <div class="card relative bg-blue-900 w-full sm:w-56 md:w-72 h-60 sm:h-64 md:h-72 rounded-md shadow-md text-white p-6 flex flex-col justify-center
-                    transform transition duration-300 hover:scale-105 hover:-translate-y-3 hover:shadow-2xl hover:shadow-black/60">
-            <div class="absolute left-[-12px] top-1/2 -translate-y-1/2
-                        w-0 h-0 border-t-[14px] border-b-[14px] border-r-[14px] border-transparent
-                        border-r-blue-900 pointer-events-none"></div>
-            <div class="flex flex-col items-center text-center">
-                <img src="https://via.placeholder.com/90" alt="Foto Direktur"
-                     class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-white mb-3">
-                <h3 class="text-sm sm:text-base md:text-lg font-bold" data-translate-key="leader_name_1">
-                    Dr. Wannen Pakpahan, M.M
-                </h3>
-                <p class="text-xs sm:text-sm md:text-sm opacity-80 leading-tight" data-translate-key="leader_position_1">
-                    Direktur Penjamin Mutu<br>Yayasan Wahana Prestasi Prima
-                </p>
-            </div>
-        </div>
-
-        <!-- Card 3 - Orange -->
-        <div class="card bg-orange-600 w-full sm:w-48 md:w-60 h-60 sm:h-64 md:h-72 rounded-md shadow-md p-4 flex items-center justify-center
-                    text-white text-sm sm:text-sm md:text-base leading-snug transform transition duration-300
-                    hover:scale-105 hover:-translate-y-3 hover:shadow-2xl hover:shadow-black/60">
-            <p class="text-center" data-translate-key="leader_card_3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
-            </p>
-        </div>
-
-        <!-- Card 4 - Blue -->
-        <div class="card relative bg-blue-900 w-full sm:w-56 md:w-72 h-60 sm:h-64 md:h-72 rounded-md shadow-md text-white p-6 flex flex-col justify-center
-                    transform transition duration-300 hover:scale-105 hover:-translate-y-3 hover:shadow-2xl hover:shadow-black/60">
-            <div class="absolute left-[-12px] top-1/2 -translate-y-1/2
-                        w-0 h-0 border-t-[14px] border-b-[14px] border-r-[14px] border-transparent
-                        border-r-blue-900 pointer-events-none"></div>
-            <div class="flex flex-col items-center text-center">
-                <img src="https://via.placeholder.com/90" alt="Foto Kepala Sekolah"
-                     class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-white mb-3">
-                <h3 class="text-sm sm:text-base md:text-lg font-bold" data-translate-key="leader_name_2">
-                    Hendry Kurniawan, S.Kom, M.I.Kom
-                </h3>
-                <p class="text-xs sm:text-sm md:text-sm opacity-80 leading-tight" data-translate-key="leader_position_2">
-                    Kepala SMK Prestasi Prima
-                </p>
-            </div>
-        </div>
-
+      <!-- Card 2 - Blue -->
+      <div class="card relative bg-blue-900 w-full sm:w-56 md:w-60 h-60 sm:h-64 md:h-72 rounded-md shadow-md text-white p-6 flex flex-col justify-center
+                  transform transition duration-300 hover:scale-105 hover:-translate-y-3 hover:shadow-2xl hover:shadow-black/60">
+        <div class="absolute left-[-12px] top-1/2 -translate-y-1/2
+                    w-0 h-0 border-t-[14px] border-b-[14px] border-r-[14px] border-transparent
+                    border-r-blue-900 pointer-events-none"></div>
+        <p class="text-center" data-translate-key="leader_card_1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+        </p>
+      </div>
     </div>
-    </section>
-    <!-- END SECTION PESAN PIMPINAN -->
+
+    <!-- Pasangan Card 3 + Card 4 -->
+    <div class="flex flex-wrap gap-2">
+      <!-- Card 3 - Orange -->
+      <div class="card bg-orange-600 w-full sm:w-56 md:w-60 h-60 sm:h-64 md:h-72 rounded-md shadow-md p-4 flex items-center justify-center
+                  text-white text-sm sm:text-sm md:text-base leading-snug transform transition duration-300
+                  hover:scale-105 hover:-translate-y-3 hover:shadow-2xl hover:shadow-black/60">
+        <div class="flex flex-col items-center text-center">
+          <img src="https://via.placeholder.com/90" alt="Foto Kepala Sekolah"
+               class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-white mb-3">
+          <h3 class="text-sm sm:text-base md:text-lg font-bold" data-translate-key="leader_name_2">
+            Hendry Kurniawan, S.Kom, M.I.Kom
+          </h3>
+          <p class="text-xs sm:text-sm md:text-sm opacity-80 leading-tight" data-translate-key="leader_position_2">
+            Kepala SMK Prestasi Prima
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 4 - Blue -->
+      <div class="card relative bg-blue-900 w-full sm:w-56 md:w-60 h-60 sm:h-64 md:h-72 rounded-md shadow-md text-white p-6 flex flex-col justify-center
+                  transform transition duration-300 hover:scale-105 hover:-translate-y-3 hover:shadow-2xl hover:shadow-black/60">
+        <div class="absolute left-[-12px] top-1/2 -translate-y-1/2
+                    w-0 h-0 border-t-[14px] border-b-[14px] border-r-[14px] border-transparent
+                    border-r-blue-900 pointer-events-none"></div>
+        <p class="text-center" data-translate-key="leader_card_3">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- END SECTION PESAN PIMPINAN -->
+
     
     <!-- GSAP CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
@@ -350,7 +358,7 @@
         });
     });
     //END SCRIPT ANIMASI PESAN PIMPINAN
-    
+
     </script>
 
     <style>
