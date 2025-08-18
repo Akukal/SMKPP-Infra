@@ -380,6 +380,17 @@
                 id: "Daftar Sekarang",
                 en: "Register Now"
             },
+
+            // Section Pesan Pimpinan
+            leader_message: { id: "Pesan Pimpinan", en: "Leader's Message" },
+            leader_card_1: { id: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.", en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio." },
+            leader_name_1: { id: "Dr. Wannen Pakpahan, M.M", en: "Dr. Wannen Pakpahan, M.M" },
+            leader_position_1: { id: "Direktur Penjamin Mutu Yayasan Wahana Prestasi Prima", en: "Quality Assurance Director Wahana Prestasi Prima Foundation" },
+            leader_card_3: { id: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.", en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio." },
+            leader_name_2: { id: "Hendry Kurniawan, S.Kom, M.I.Kom", en: "Hendry Kurniawan, S.Kom, M.I.Kom" },
+            leader_position_2: { id: "Kepala SMK Prestasi Prima", en: "Principal of SMK Prestasi Prima" },
+
+
         };
         const flagSVGs = {
             id: `<path d="M0 0H21V6.5H0V0Z" fill="#FF0000"/><path d="M0 6.5H21V13H0V6.5Z" fill="white"/>`,
