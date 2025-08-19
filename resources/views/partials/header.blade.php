@@ -380,6 +380,7 @@
                 id: "Daftar Sekarang",
                 en: "Register Now"
             },
+
             // Section Sekilas SMK
             about_section_sekilas: {
                 id: "Sekilas",

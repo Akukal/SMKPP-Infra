@@ -44,36 +44,37 @@
             alt="SMK Prestasi Prima">
     </section>
 
+    <!-- Section About -->
     <section class="px-20 w-full h-screen py-20 flex items-center justify-center flex-col" id="about-section">
         <h1 class="mx-auto text-center text-3xl text-blue-900 section-title">
-            Sekilas <span class="text-orange-400 font-bold highlight-text">SMK PRESTASI PRIMA</span>
+            <span data-translate-key="about_intro">Sekilas</span> <span class="text-orange-400 font-bold highlight-text"
+                data-translate-key="school_name">SMK PRESTASI PRIMA</span>
         </h1>
 
-        <div class="flex flex-col md:flex-row mt-8 px-0 md:px-40 space-y-4 md:space-y-0 md:space-x-4 content-container w-full">
+        <div class="flex mt-8 px-40 space-x-4 content-container">
             <div class="rounded-xl shadow-xl flex-1 flex items-center text-card">
-                <p class="text-blue-900 py-20 px-10 my-auto text-md">
+                <p class="text-blue-900 py-20 px-10 my-auto text-md" data-translate-key="about_description">
                     Di sekolah Prestasi Prima yang unggul dan terpercaya siswa & siswi disiapkan untuk menjadi tenaga yang
                     terampil dan mandiri. Tidak hanya itu ketakwaan dan kecerdasan pun harus dimiliki, dan percaya diri
                     selalu terjaga dengan berkarakter Pancasila. Jika ada yang lebih baik, baik saja tidak cukup.
                 </p>
             </div>
 
-            <div class="flex-1 image-container flex justify-center">
-                <img src="{{ asset('images/sekolah_ls.png') }}" class="rounded-xl about-image max-w-full h-auto" draggable="false"
+            <div class="flex-1 image-container">
+                <img src="{{ asset('images/sekolah_ls.png') }}" class="rounded-xl about-image" draggable="false"
                     alt="SMK Prestasi Prima" />
             </div>
         </div>
     </section>
-    <!--END SECTION SEKILAS SMK -->
 
-<!-- SECTION PESAN PIMPINAN -->
-<section class="px-4 md:px-20 w-full py-16 flex flex-col items-center bg-white" id="pesan-pimpinan">
-  <h2 class="text-3xl font-bold text-orange-600 mb-12 text-center" data-translate-key="leader_message">
-    Pesan Pimpinan
-  </h2>
+    <!-- SECTION PESAN PIMPINAN -->
+    <section class="px-4 md:px-20 w-full py-16 flex flex-col items-center bg-white" id="pesan-pimpinan">
+        <h2 class="text-3xl font-bold text-orange-600 mb-12 text-center" data-translate-key="leader_message">
+            Pesan Pimpinan
+        </h2>
 
-  <!-- Baris utama dengan pasangan card rapat -->
-  <div class="flex flex-wrap justify-center gap-4 max-w-7xl">
+        <!-- Baris utama dengan pasangan card rapat -->
+        <div class="flex flex-wrap justify-center gap-4 max-w-7xl">
 
             <!-- Pasangan Card 1 + Card 2 -->
             <div class="flex flex-wrap gap-2">
