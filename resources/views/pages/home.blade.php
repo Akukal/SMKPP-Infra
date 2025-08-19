@@ -12,19 +12,21 @@
         <div class="absolute inset-0 flex items-center px-20 z-20">
             <div class="container mx-auto px-4">
                 <div class="max-w-4xl space-y-2 lg:space-y-4" id="hero-content">
-                    <p
-                        class="text-sm sm:text-2xl xl:text-3xl font-semibold border-l-4 border-orange-400 pl-4 text-gray-200 welcome-text">
+                    <p class="text-sm sm:text-2xl xl:text-3xl font-semibold border-l-4 border-orange-400 pl-4 text-gray-200 welcome-text"
+                        data-translate-key="hero_welcome">
                         SELAMAT DATANG DI SITUS RESMI</p>
-                    <h1 class="text-3xl sm:text-5xl xl:text-6xl font-bold text-orange-400 leading-tight main-title">
+                    <h1 class="text-3xl sm:text-5xl xl:text-6xl font-bold text-orange-400 leading-tight main-title"
+                        data-translate-key="school_name">
                         SMK PRESTASI PRIMA
                     </h1>
-                    <p class="text-xs sm:text-lg xl:text-xl font-semibold text-gray-300 italic motto">
+                    <p class="text-xs sm:text-lg xl:text-xl font-semibold text-gray-300 italic motto"
+                        data-translate-key="school_motto">
                         "IF BETTER IS POSSIBLE, GOOD IS NOT ENOUGH"
                     </p>
                     <div class="pt-4 cta-container">
                         <a href="#tentang"
                             class="select-none text-sm sm:text-lg inline-flex items-center gap-2 bg-orange-500 text-white px-5 sm:px-8 py-3 sm:py-4 rounded-full font-semibold hover:bg-orange-600 transition-all duration-300 transform cta-button">
-                            EXPLORE
+                            <span data-translate-key="hero_cta_button">EXPLORE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-auto w-4 sm:w-5 arrow-icon" viewBox="0 0 20 20"
                                 fill="currentColor">
                                 <path fill-rule="evenodd"
