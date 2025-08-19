@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-<!-- SOCIAL BAR -->
-<x-social-bar />
+    <!-- SOCIAL BAR -->
+    <x-social-bar />
     <section class="bg-cover bg-center w-full h-screen relative bg-gray-800 overflow-hidden" id="hero-section">
         <!-- Gradient Overlay -->
         <div
@@ -63,80 +63,90 @@
         </div>
     </section>
 
-<!-- SECTION PESAN PIMPINAN -->
-<section class="px-4 md:px-20 w-full py-16 flex flex-col items-center bg-white" id="pesan-pimpinan">
-  <h2 class="text-3xl font-bold text-orange-600 mb-12 text-center" data-translate-key="leader_message">
-    Pesan Pimpinan
-  </h2>
+    <!-- SECTION PESAN PIMPINAN -->
+    <section class="px-4 md:px-20 w-full py-16 flex flex-col items-center bg-white" id="pesan-pimpinan">
+        <h2 class="text-3xl font-bold text-orange-600 mb-12 text-center" data-translate-key="leader_message">
+            Pesan Pimpinan
+        </h2>
 
-  <!-- Baris utama dengan pasangan card rapat -->
-  <div class="flex flex-wrap justify-center gap-4 max-w-7xl">
+        <!-- Baris utama dengan pasangan card rapat -->
+        <div class="flex flex-wrap justify-center gap-4 max-w-7xl">
 
-    <!-- Pasangan Card 1 + Card 2 -->
-    <div class="flex flex-wrap gap-2">
-      <!-- Card 1 - Orange -->
-      <div class="card bg-orange-600 w-full sm:w-56 md:w-60 h-60 sm:h-64 md:h-72 rounded-md shadow-md p-4 flex items-center justify-center
+            <!-- Pasangan Card 1 + Card 2 -->
+            <div class="flex flex-wrap gap-2">
+                <!-- Card 1 - Orange -->
+                <div
+                    class="card bg-orange-600 w-full sm:w-56 md:w-60 h-60 sm:h-64 md:h-72 rounded-md shadow-md p-4 flex items-center justify-center
                   text-white text-sm sm:text-sm md:text-base leading-snug transform transition duration-300
                   hover:scale-105 hover:-translate-y-3 hover:shadow-2xl hover:shadow-black/60">
-        <div class="flex flex-col items-center text-center">
-          <img src="https://via.placeholder.com/90" alt="Foto Direktur"
-               class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-white mb-3">
-          <h3 class="text-sm sm:text-base md:text-lg font-bold" data-translate-key="leader_name_1">
-            Dr. Wannen Pakpahan, M.M
-          </h3>
-          <p class="text-xs sm:text-sm md:text-sm opacity-80 leading-tight" data-translate-key="leader_position_1">
-            Direktur Penjamin Mutu<br>Yayasan Wahana Prestasi Prima
-          </p>
-        </div>
-      </div>
+                    <div class="flex flex-col items-center text-center">
+                        <img src="https://via.placeholder.com/90" alt="Foto Direktur"
+                            class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-white mb-3">
+                        <h3 class="text-sm sm:text-base md:text-lg font-bold" data-translate-key="leader_name_1">
+                            Dr. Wannen Pakpahan, M.M
+                        </h3>
+                        <p class="text-xs sm:text-sm md:text-sm opacity-80 leading-tight"
+                            data-translate-key="leader_position_1">
+                            Direktur Penjamin Mutu<br>Yayasan Wahana Prestasi Prima
+                        </p>
+                    </div>
+                </div>
 
-      <!-- Card 2 - Blue -->
-      <div class="card relative bg-blue-900 w-full sm:w-56 md:w-60 h-60 sm:h-64 md:h-72 rounded-md shadow-md text-white p-6 flex flex-col justify-center
+                <!-- Card 2 - Blue -->
+                <div
+                    class="card relative bg-blue-900 w-full sm:w-56 md:w-60 h-60 sm:h-64 md:h-72 rounded-md shadow-md text-white p-6 flex flex-col justify-center
                   transform transition duration-300 hover:scale-105 hover:-translate-y-3 hover:shadow-2xl hover:shadow-black/60">
-        <div class="absolute left-[-12px] top-1/2 -translate-y-1/2
+                    <div
+                        class="absolute left-[-12px] top-1/2 -translate-y-1/2
                     w-0 h-0 border-t-[14px] border-b-[14px] border-r-[14px] border-transparent
-                    border-r-blue-900 pointer-events-none"></div>
-        <p class="text-center" data-translate-key="leader_card_1">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
-        </p>
-      </div>
-    </div>
+                    border-r-blue-900 pointer-events-none">
+                    </div>
+                    <p class="text-center" data-translate-key="leader_card_1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+                    </p>
+                </div>
+            </div>
 
-    <!-- Pasangan Card 3 + Card 4 -->
-    <div class="flex flex-wrap gap-2">
-      <!-- Card 3 - Orange -->
-      <div class="card bg-orange-600 w-full sm:w-56 md:w-60 h-60 sm:h-64 md:h-72 rounded-md shadow-md p-4 flex items-center justify-center
+            <!-- Pasangan Card 3 + Card 4 -->
+            <div class="flex flex-wrap gap-2">
+                <!-- Card 3 - Orange -->
+                <div
+                    class="card bg-orange-600 w-full sm:w-56 md:w-60 h-60 sm:h-64 md:h-72 rounded-md shadow-md p-4 flex items-center justify-center
                   text-white text-sm sm:text-sm md:text-base leading-snug transform transition duration-300
                   hover:scale-105 hover:-translate-y-3 hover:shadow-2xl hover:shadow-black/60">
-        <div class="flex flex-col items-center text-center">
-          <img src="https://via.placeholder.com/90" alt="Foto Kepala Sekolah"
-               class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-white mb-3">
-          <h3 class="text-sm sm:text-base md:text-lg font-bold" data-translate-key="leader_name_2">
-            Hendry Kurniawan, S.Kom, M.I.Kom
-          </h3>
-          <p class="text-xs sm:text-sm md:text-sm opacity-80 leading-tight" data-translate-key="leader_position_2">
-            Kepala SMK Prestasi Prima
-          </p>
-        </div>
-      </div>
+                    <div class="flex flex-col items-center text-center">
+                        <img src="https://via.placeholder.com/90" alt="Foto Kepala Sekolah"
+                            class="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-white mb-3">
+                        <h3 class="text-sm sm:text-base md:text-lg font-bold" data-translate-key="leader_name_2">
+                            Hendry Kurniawan, S.Kom, M.I.Kom
+                        </h3>
+                        <p class="text-xs sm:text-sm md:text-sm opacity-80 leading-tight"
+                            data-translate-key="leader_position_2">
+                            Kepala SMK Prestasi Prima
+                        </p>
+                    </div>
+                </div>
 
-      <!-- Card 4 - Blue -->
-      <div class="card relative bg-blue-900 w-full sm:w-56 md:w-60 h-60 sm:h-64 md:h-72 rounded-md shadow-md text-white p-6 flex flex-col justify-center
+                <!-- Card 4 - Blue -->
+                <div
+                    class="card relative bg-blue-900 w-full sm:w-56 md:w-60 h-60 sm:h-64 md:h-72 rounded-md shadow-md text-white p-6 flex flex-col justify-center
                   transform transition duration-300 hover:scale-105 hover:-translate-y-3 hover:shadow-2xl hover:shadow-black/60">
-        <div class="absolute left-[-12px] top-1/2 -translate-y-1/2
+                    <div
+                        class="absolute left-[-12px] top-1/2 -translate-y-1/2
                     w-0 h-0 border-t-[14px] border-b-[14px] border-r-[14px] border-transparent
-                    border-r-blue-900 pointer-events-none"></div>
-        <p class="text-center" data-translate-key="leader_card_3">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
-        </p>
-      </div>
-    </div>
+                    border-r-blue-900 pointer-events-none">
+                    </div>
+                    <p class="text-center" data-translate-key="leader_card_3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+                    </p>
+                </div>
+            </div>
 
-  </div>
-</section>
-<!-- END SECTION PESAN PIMPINAN -->
+        </div>
+    </section>
+    <!-- END SECTION PESAN PIMPINAN -->
 
-    
+
     <!-- GSAP CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
@@ -154,7 +164,7 @@
             });
 
             gsap.set('.bg-image', {
-                scale: 1.1,
+                scale: 1.35,
                 opacity: 0
             });
 
@@ -170,7 +180,7 @@
             // Background image animation
             heroTL.to('.bg-image', {
                     duration: 2,
-                    scale: 1,
+                    scale: 1.25,
                     opacity: 0.75,
                     ease: "power2.out"
                 })
@@ -322,45 +332,44 @@
 
         //PESAN PIMPINAN 
 
-       document.addEventListener('DOMContentLoaded', function() {
-        // Pastikan GSAP & ScrollTrigger sudah di-load
-        gsap.registerPlugin(ScrollTrigger);
+        document.addEventListener('DOMContentLoaded', function() {
+            // Pastikan GSAP & ScrollTrigger sudah di-load
+            gsap.registerPlugin(ScrollTrigger);
 
-        // Set awal: opacity 0, translateY 60
-        gsap.set('#pesan-pimpinan h2, #pesan-pimpinan .card', {
-            opacity: 0,
-            y: 60
+            // Set awal: opacity 0, translateY 60
+            gsap.set('#pesan-pimpinan h2, #pesan-pimpinan .card', {
+                opacity: 0,
+                y: 60
+            });
+
+            // Animasi heading
+            gsap.to('#pesan-pimpinan h2', {
+                scrollTrigger: {
+                    trigger: '#pesan-pimpinan',
+                    start: 'top 80%',
+                    toggleActions: 'play none none reverse'
+                },
+                duration: 1,
+                opacity: 1,
+                y: 0,
+                ease: "back.out(1.7)"
+            });
+
+            // Animasi card
+            gsap.to('#pesan-pimpinan .card', {
+                scrollTrigger: {
+                    trigger: '#pesan-pimpinan',
+                    start: 'top 70%',
+                    toggleActions: 'play none none reverse'
+                },
+                duration: 1.2,
+                opacity: 1,
+                y: 0,
+                ease: "back.out(1.7)",
+                stagger: 0.2
+            });
         });
-
-        // Animasi heading
-        gsap.to('#pesan-pimpinan h2', {
-            scrollTrigger: {
-                trigger: '#pesan-pimpinan',
-                start: 'top 80%',
-                toggleActions: 'play none none reverse'
-            },
-            duration: 1,
-            opacity: 1,
-            y: 0,
-            ease: "back.out(1.7)"
-        });
-
-        // Animasi card
-        gsap.to('#pesan-pimpinan .card', {
-            scrollTrigger: {
-                trigger: '#pesan-pimpinan',
-                start: 'top 70%',
-                toggleActions: 'play none none reverse'
-            },
-            duration: 1.2,
-            opacity: 1,
-            y: 0,
-            ease: "back.out(1.7)",
-            stagger: 0.2
-        });
-    });
-    //END SCRIPT ANIMASI PESAN PIMPINAN
-
+        //END SCRIPT ANIMASI PESAN PIMPINAN
     </script>
 
     <style>
