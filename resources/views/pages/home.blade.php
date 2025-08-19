@@ -44,12 +44,13 @@
 
     <section class="px-20 w-full h-screen py-20 flex items-center justify-center flex-col" id="about-section">
         <h1 class="mx-auto text-center text-3xl text-blue-900 section-title">
-            Sekilas <span class="text-orange-400 font-bold highlight-text">SMK PRESTASI PRIMA</span>
+            <span data-translate-key="about_intro">Sekilas</span> <span class="text-orange-400 font-bold highlight-text"
+                data-translate-key="school_name">SMK PRESTASI PRIMA</span>
         </h1>
 
         <div class="flex mt-8 px-40 space-x-4 content-container">
             <div class="rounded-xl shadow-xl flex-1 flex items-center text-card">
-                <p class="text-blue-900 py-20 px-10 my-auto text-md">
+                <p class="text-blue-900 py-20 px-10 my-auto text-md" data-translate-key="about_description">
                     Di sekolah Prestasi Prima yang unggul dan terpercaya siswa & siswi disiapkan untuk menjadi tenaga yang
                     terampil dan mandiri. Tidak hanya itu ketakwaan dan kecerdasan pun harus dimiliki, dan percaya diri
                     selalu terjaga dengan berkarakter Pancasila. Jika ada yang lebih baik, baik saja tidak cukup.

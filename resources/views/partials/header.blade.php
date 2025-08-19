@@ -381,51 +381,81 @@
                 en: "Register Now"
             },
 
+            //Section sekilas SMK Prestasi Prima
+            about_intro: {
+                id: "Sekilas",
+                en: "About"
+            },
+            about_description: {
+                id: "Di sekolah Prestasi Prima yang unggul dan terpercaya siswa & siswi disiapkan untuk menjadi tenaga yang terampil dan mandiri. Tidak hanya itu ketakwaan dan kecerdasan pun harus dimiliki, dan percaya diri selalu terjaga dengan berkarakter Pancasila. Jika ada yang lebih baik, baik saja tidak cukup.",
+                en: "At Prestasi Prima School, which is excellent and trusted, students are prepared to become skilled and independent workers. Not only that, devotion and intelligence must also be possessed, and self-confidence is always maintained with Pancasila character. If there is something better, good alone is not enough."
+            }
+
             // Section Pesan Pimpinan
-            leader_message: { id: "Pesan Pimpinan", en: "Leader's Message" },
-            leader_card_1: { id: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.", en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio." },
-            leader_name_1: { id: "Dr. Wannen Pakpahan, M.M", en: "Dr. Wannen Pakpahan, M.M" },
-            leader_position_1: { id: "Direktur Penjamin Mutu Yayasan Wahana Prestasi Prima", en: "Quality Assurance Director Wahana Prestasi Prima Foundation" },
-            leader_card_3: { id: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.", en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio." },
-            leader_name_2: { id: "Hendry Kurniawan, S.Kom, M.I.Kom", en: "Hendry Kurniawan, S.Kom, M.I.Kom" },
-            leader_position_2: { id: "Kepala SMK Prestasi Prima", en: "Principal of SMK Prestasi Prima" },
+            leader_message: {
+                id: "Pesan Pimpinan",
+                en: "Leader's Message"
+            },
+            leader_card_1: {
+                id: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
+                en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio."
+            },
+            leader_name_1: {
+                id: "Dr. Wannen Pakpahan, M.M",
+                en: "Dr. Wannen Pakpahan, M.M"
+            },
+            leader_position_1: {
+                id: "Direktur Penjamin Mutu Yayasan Wahana Prestasi Prima",
+                en: "Quality Assurance Director Wahana Prestasi Prima Foundation"
+            },
+            leader_card_3: {
+                id: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
+                en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio."
+            },
+            leader_name_2: {
+                id: "Hendry Kurniawan, S.Kom, M.I.Kom",
+                en: "Hendry Kurniawan, S.Kom, M.I.Kom"
+            },
+            leader_position_2: {
+                id: "Kepala SMK Prestasi Prima",
+                en: "Principal of SMK Prestasi Prima"
+            },
 
             //footer
             school_name: {
-        id: "SMK Prestasi Prima",
-        en: "SMK Prestasi Prima"
-    },
-    school_address: {
-        id: "Jl. Hankam Raya No. 89, Cilangkap, Cipayung, Jakarta Timur, DKI Jakarta.",
-        en: "Jl. Hankam Raya No. 89, Cilangkap, Cipayung, East Jakarta, DKI Jakarta."
-    },
-    menu_info: {
-        id: "Informasi Sekolah",
-        en: "School Information"
-    },
-    menu_life: {
-        id: "Kehidupan Siswa",
-        en: "Student Life"
-    },
-    menu_partner: {
-        id: "Mitra",
-        en: "Partners"
-    },
-    menu_admission: {
-        id: "Penerimaan Siswa",
-        en: "Admission"
-    },
-    menu_news: {
-        id: "Berita",
-        en: "News"
-    },
-    footer_text: {
-        id: "© 2025 Orens Solution - Version 2.0 | orang-orang",
-        en: "© 2025 Orens Solution - Version 2.0 | people"
-    }
+                id: "SMK Prestasi Prima",
+                en: "SMK Prestasi Prima"
+            },
+            school_address: {
+                id: "Jl. Hankam Raya No. 89, Cilangkap, Cipayung, Jakarta Timur, DKI Jakarta.",
+                en: "Jl. Hankam Raya No. 89, Cilangkap, Cipayung, East Jakarta, DKI Jakarta."
+            },
+            menu_info: {
+                id: "Informasi Sekolah",
+                en: "School Information"
+            },
+            menu_life: {
+                id: "Kehidupan Siswa",
+                en: "Student Life"
+            },
+            menu_partner: {
+                id: "Mitra",
+                en: "Partners"
+            },
+            menu_admission: {
+                id: "Penerimaan Siswa",
+                en: "Admission"
+            },
+            menu_news: {
+                id: "Berita",
+                en: "News"
+            },
+            footer_text: {
+                id: "© 2025 Orens Solution - Version 2.0 | orang-orang",
+                en: "© 2025 Orens Solution - Version 2.0 | people"
+            }
+        }
 
-
-        };
         const flagSVGs = {
             id: `<path d="M0 0H21V6.5H0V0Z" fill="#FF0000"/><path d="M0 6.5H21V13H0V6.5Z" fill="white"/>`,
             en: `<path d="M0,0h7410v3900H0" fill="#b31942"/><path d="M0,450H7410m0,600H0m0,600H7410m0,600H0m0,600H7410m0,600H0" stroke="#FFF" stroke-width="300"/><path d="M0,0h2964v2100H0" fill="#0a3161"/><g fill="#FFF"><g id="s18"><g id="s9"><g id="s5"><g id="s4"><path id="s" d="M247,90 317.5,307.1 132.9,172.9H361.1L176.5,307.1z"/><use href="#s" y="420"/><use href="#s" y="840"/><use href="#s" y="1260"/></g><use href="#s" y="1680"/></g><use href="#s4" x="247" y="210"/></g><use href="#s9" x="494"/></g><use href="#s18" x="988"/><use href="#s9" x="1976"/><use href="#s5" x="2470"/></g>`
