@@ -380,6 +380,20 @@
                 id: "Daftar Sekarang",
                 en: "Register Now"
             },
+            // Section Sekilas SMK
+            about_section_sekilas: {
+                id: "Sekilas",
+                en: "Overview"
+            },
+            about_section_highlight: {
+                id: "SMK PRESTASI PRIMA",
+                en: "SMK PRESTASI PRIMA"
+            },
+            about_section_text: {
+                id: "Di sekolah Prestasi Prima yang unggul dan terpercaya siswa & siswi disiapkan untuk menjadi tenaga yang terampil dan mandiri. Tidak hanya itu ketakwaan dan kecerdasan pun harus dimiliki, dan percaya diri selalu terjaga dengan berkarakter Pancasila. Jika ada yang lebih baik, baik saja tidak cukup.",
+                en: "At Prestasi Prima School, which is excellent and trusted, students are prepared to become skilled and independent professionals. Not only that, piety and intelligence must be possessed, and confidence is always maintained with Pancasila character. If something better exists, being just good is not enough."
+            },
+
 
             // Section Pesan Pimpinan
             leader_message: { id: "Pesan Pimpinan", en: "Leader's Message" },
