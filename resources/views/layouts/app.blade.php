@@ -3,17 +3,12 @@
 <head>
     @include('partials.head')
 </head>
-<body>
-
+<body class="font-['Poppins']">
     @include('partials.header')
-    
     <main>
         @yield('content')
         @include('pages.chat')
     </main>
-
     @include('partials.footer')
-    
-    
 </body>
 </html>

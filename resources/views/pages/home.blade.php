@@ -15,7 +15,7 @@
                     <p class="text-sm sm:text-2xl xl:text-3xl font-semibold border-l-4 border-orange-400 pl-4 text-gray-200 welcome-text"
                         data-translate-key="hero_welcome">
                         SELAMAT DATANG DI SITUS RESMI</p>
-                    <h1 class="text-3xl sm:text-5xl xl:text-6xl font-bold text-orange-400 leading-tight main-title"
+                    <h1 class="text-3xl sm:text-5xl xl:text-6xl font-bold text-orange-400 uppercase leading-tight main-title"
                         data-translate-key="school_name">
                         SMK PRESTASI PRIMA
                     </h1>

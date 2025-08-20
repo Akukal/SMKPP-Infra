@@ -8,11 +8,19 @@ class HomeController extends Controller
 {
     public function index()
     {
+        $title = 'SMK Prestasi Prima';
+        $desc = 'Situs Resmi SMK Prestasi Prima';
+        $icon = 'images/smk.png';
+        
         $transparent = true;
 
-        return view('pages.home', [
+        return view('pages.home', with([
+            'title' => $title,
+            'desc' => $desc,
+            'icon' => $icon,
+
             'isHome' => true,
-        ]);
+        ]));
     }
 
     public function virtualExperience()

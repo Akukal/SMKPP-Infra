@@ -1,9 +1,7 @@
 <div class="fixed top-1/2 right-0 transform -translate-y-1/2 z-50">
     <div class="relative w-[68px] h-[231px] flex items-center justify-center">
         <!-- Background Putih (awal tampil) -->
-        <img id="bgWhite"
-             src="{{ asset('images/social-bar-white.png') }}"
-             class="absolute transition-opacity duration-300" />
+        <img id="bgWhite" src="{{ asset('images/social-bar-white.png') }}" class="absolute transition-opacity duration-300" />
 
         <!-- Background Orange (disembunyikan awalnya, tapi difilter jadi #FE4D01) -->
         <img id="bgOrange"
