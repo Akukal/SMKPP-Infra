@@ -1,24 +1,6 @@
 <header id="mainHeader" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 font-light">
-
     <div class="relative flex h-[39px] items-center justify-end bg-[#243771] px-8 text-white text-sm">
 
-        <div class="relative">
-            <button data-dropdown-toggle="berita-menu" class="flex items-center hover:text-gray-300">
-                <span data-translate-key="news">Berita</span>
-                <svg class="ml-2 h-4 w-4 transition-transform duration-200" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                </svg>
-            </button>
-            <div id="berita-menu"
-                class="absolute right-0 top-full z-10 mt-2 hidden w-48 origin-top-right rounded-md border border-gray-200 bg-white py-1 text-gray-700 shadow-lg">
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100" data-translate-key="latest_articles">Artikel
-                    Terbaru</a>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100"
-                    data-translate-key="popular_categories">Kategori Populer</a>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100" data-translate-key="opinion">Opini</a>
-            </div>
-        </div>
 
         <div class="relative ml-5">
             <button id="lang-selector-btn" data-dropdown-toggle="bahasa-menu"
@@ -183,6 +165,24 @@
                         <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                             data-translate-key="testimonials">Testimoni</a>
                     </div>
+                </div>
+            </div>
+
+            <div class="relative">
+                <button data-dropdown-toggle="berita-menu" class="flex items-center text-white hover:text-orange-300 transition-colors duration-200">
+                    <span data-translate-key="news" >Berita</span>
+                    <svg class="ml-2 h-4 w-4 transition-transform duration-200" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </button>
+                <div id="berita-menu"
+                    class="absolute right-0 top-full z-10 mt-2 hidden w-48 origin-top-right rounded-md border border-gray-200 bg-white py-1 text-gray-700 shadow-lg">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100" data-translate-key="latest_articles">Artikel
+                        Terbaru</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100"
+                        data-translate-key="popular_categories">Kategori Populer</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100" data-translate-key="opinion">Opini</a>
                 </div>
             </div>
         </nav>
