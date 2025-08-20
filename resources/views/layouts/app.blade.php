@@ -7,8 +7,8 @@
     @include('partials.header')
     <main>
         @yield('content')
-        @include('pages.chat')
     </main>
+    <x-chat></x-chat>
     @include('partials.footer')
 </body>
 </html>

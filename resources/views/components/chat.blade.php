@@ -4,7 +4,7 @@
     <button id="chatButton" class="bg-orange-600 text-white rounded-full w-16 h-16 text-2xl flex items-center justify-center shadow-lg hover:bg-orange-700 transition">💬</button>
 
     <!-- Kotak Chat -->
-    <div id="chatBox" class="hidden w-80 bg-white rounded-2xl shadow-xl flex flex-col overflow-hidden max-h-[70vh]">
+    <div id="chatBox" class="hidden w-80 bg-white rounded-2xl shadow-xl flex-col overflow-hidden max-h-[70vh]">
         <!-- Header -->
         <div class="bg-orange-600 text-white px-4 py-2 font-semibold flex items-center justify-between">
             Chat Asisten Sekolah

@@ -1,43 +1,39 @@
-<header id="mainHeader" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 font-light">
-    <div class="relative flex h-[39px] items-center justify-end bg-[#243771] px-8 text-white text-sm">
+<header id="mainHeader" class="fixed top-0 w-full z-50 transition-all duration-300 select-none">
 
-
-        <div class="relative ml-5">
-            <button id="lang-selector-btn" data-dropdown-toggle="bahasa-menu"
-                class="flex items-center hover:text-gray-300">
-                <svg id="current-flag" class="mr-2 h-[13px] w-[21px]" viewBox="0 0 21 13" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
+    <!-- switch language -->
+    <div class="flex items-center justify-center w-full bg-custom-1 px-4">
+        <div class="container flex items-center justify-end py-2">
+            <button id="lang-selector-btn" data-dropdown-toggle="bahasa-menu" class="flex items-center text-white text-sm hover:text-gray-300 cursor-pointer">
+                <svg id="current-flag" class="mr-2 h-[13px] w-[21px]" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0H21V6.5H0V0Z" fill="#FF0000" />
                     <path d="M0 6.5H21V13H0V6.5Z" fill="white" />
                 </svg>
                 <span id="current-lang-text" data-translate-key="current_lang">Bahasa Indonesia</span>
-                <svg class="ml-2 h-4 w-4 transition-transform duration-200" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
+                <svg class="ml-2 h-4 w-4 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                 </svg>
             </button>
-            <div id="bahasa-menu"
-                class="absolute right-0 top-full z-10 mt-2 hidden w-56 origin-top-right rounded-md border border-gray-200 bg-white py-1 text-gray-700 shadow-lg">
-                <a href="#" class="lang-switcher flex items-center px-4 py-2 hover:bg-gray-100" data-lang="id">
+
+            <div id="bahasa-menu" class="absolute right-45 top-10 z-10 hidden w-fit origin-top-right rounded-md border border-gray-200 bg-white py-1 text-gray-700 shadow-lg">
+                <section class="lang-switcher flex items-center px-4 py-2 hover:bg-gray-100 cursor-pointer" data-lang="id">
                     <svg class="mr-2 h-[13px] w-[21px]" viewBox="0 0 21 13">
                         <path d="M0 0H21V6.5H0V0Z" fill="#FF0000" />
                         <path d="M0 6.5H21V13H0V6.5Z" fill="white" />
                     </svg>
                     <span data-translate-key="lang_id">Bahasa Indonesia</span>
-                </a>
-                <a href="#" class="lang-switcher flex items-center px-4 py-2 hover:bg-gray-100" data-lang="en">
+                </section>
+
+                <section class="lang-switcher flex items-center px-4 py-2 hover:bg-gray-100 cursor-pointer" data-lang="en">
                     <svg class="mr-2 h-[13px] w-[21px]" viewBox="0 0 7410 3900">
                         <path d="M0,0h7410v3900H0" fill="#b31942" />
-                        <path d="M0,450H7410m0,600H0m0,600H7410m0,600H0m0,600H7410m0,600H0" stroke="#FFF"
-                            stroke-width="300" />
+                        <path d="M0,450H7410m0,600H0m0,600H7410m0,600H0m0,600H7410m0,600H0" stroke="#FFF" stroke-width="300" />
                         <path d="M0,0h2964v2100H0" fill="#0a3161" />
                         <g fill="#FFF">
                             <g id="s18">
                                 <g id="s9">
                                     <g id="s5">
                                         <g id="s4">
-                                            <path id="s"
-                                                d="M247,90 317.5,307.1 132.9,172.9H361.1L176.5,307.1z" />
+                                            <path id="s" d="M247,90 317.5,307.1 132.9,172.9H361.1L176.5,307.1z" />
                                             <use href="#s" y="420" />
                                             <use href="#s" y="840" />
                                             <use href="#s" y="1260" />
@@ -54,21 +50,24 @@
                         </g>
                     </svg>
                     <span data-translate-key="lang_en">English</span>
-                </a>
+                </section>
             </div>
         </div>
     </div>
+    <!-- /switch language -->
 
-    <div class="container mx-auto flex items-center justify-between py-3 px-4">
-        <div class="flex items-center space-x-4">
-            <img src="{{ asset('images/smk.png') }}" alt="Logo SMK" class="h-12 w-12 object-contain">
-            <span id="logoText" class="font-bold text-xl text-white">SMK Prestasi Prima</span>
+    <!-- header -->
+    <div class="flex items-center justify-center w-full px-4">
+    <div class="container flex items-center justify-between py-4">
+        <div class="flex items-center gap-2">
+            <img src="{{ $icon ?? asset('images/smk.png') }}" class="h-12 w-12 object-contain">
+            <span id="logoText" class="font-bold text-2xl text-white tracking-wide">{{ $title }}</span>
         </div>
-
+        
         <nav class="hidden md:flex items-center gap-10 text-sm">
             <div class="relative">
                 <button data-dropdown-toggle="menu-school_info"
-                    class="main-nav-link text-white hover:text-orange-300 transition-colors duration-200 flex items-center">
+                    class="main-nav-link text-white hover:text-orange-300 transition-colors duration-300 flex items-center">
                     <span data-translate-key="school_info">Informasi Sekolah</span>
                     <svg class="w-4 h-4 ml-1 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
                         <path fill-rule="evenodd"
@@ -95,7 +94,7 @@
 
             <div class="relative">
                 <button data-dropdown-toggle="menu-student_life"
-                    class="main-nav-link text-white hover:text-orange-300 transition-colors duration-200 flex items-center">
+                    class="main-nav-link text-white hover:text-orange-300 transition-colors duration-300 flex items-center">
                     <span data-translate-key="student_life">Kehidupan Siswa</span>
                     <svg class="w-4 h-4 ml-1 transition-transform duration-300" fill="currentColor"
                         viewBox="0 0 20 20">
@@ -121,12 +120,12 @@
                 </div>
             </div>
 
-            <a href="#" class="main-nav-link text-white hover:text-orange-300 transition-colors duration-200"
+            <a href="#" class="main-nav-link text-white hover:text-orange-300 transition-colors duration-300"
                 data-translate-key="partners">Mitra</a>
 
             <div class="relative">
                 <button data-dropdown-toggle="menu-admission"
-                    class="main-nav-link text-white hover:text-orange-300 transition-colors duration-200 flex items-center">
+                    class="main-nav-link text-white hover:text-orange-300 transition-colors duration-300 flex items-center">
                     <span data-translate-key="admission">Penerimaan Siswa</span>
                     <svg class="w-4 h-4 ml-1 transition-transform duration-300" fill="currentColor"
                         viewBox="0 0 20 20">
@@ -169,9 +168,9 @@
             </div>
 
             <div class="relative">
-                <button data-dropdown-toggle="berita-menu" class="flex items-center text-white hover:text-orange-300 transition-colors duration-200">
+                <button data-dropdown-toggle="berita-menu" class="flex items-center text-white hover:text-orange-300 transition-colors duration-300">
                     <span data-translate-key="news" >Berita</span>
-                    <svg class="ml-2 h-4 w-4 transition-transform duration-200" fill="none" viewBox="0 0 24 24"
+                    <svg class="ml-2 h-4 w-4 transition-transform duration-300" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                     </svg>
@@ -194,6 +193,7 @@
                 class="bg-orange-500 text-white px-5 py-2 rounded-md hover:bg-orange-600 font-medium transition-colors"
                 data-translate-key="register_now">Daftar Sekarang</a>
         </div>
+    </div>
     </div>
 </header>
 

@@ -15,6 +15,16 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.min.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/markers-plugin/index.css">
-
 {{-- <script src="https://cdn.tailwindcss.com"></script> --}}
+
 @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+<style>
+    .bg-custom-1 {
+        background: #243771;
+    }
+
+    .text-custom-1 {
+        font: #243771;
+    }
+</style>

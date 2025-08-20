@@ -9,7 +9,7 @@ class HomeController extends Controller
     public function index()
     {
         $title = 'SMK Prestasi Prima';
-        $desc = 'Situs Resmi SMK Prestasi Prima';
+        $desc = 'If Better is Possible, Good is Not Enough';
         $icon = 'images/smk.png';
 
         return view('pages.home', with([
